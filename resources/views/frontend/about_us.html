@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto" id="html">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.111.3">
+    <title>Navbar Template · Bootstrap v5.3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars/">
+
+
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+
+       * { margin: 0; padding: 0; }
+
+      body {
+          background: url(images/bg1jpg.jpg) no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          /*overflow: hidden;*/
+          transition: all 2s ease-in-out;
+          /*padding: 10px;*/
+          /*z-index: 10;*/
+      }
+      body{
+          background-color: unset;
+      }
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="navbars.css" rel="stylesheet">
+      <link rel="stylesheet" href="css-slider/style.css">
+      <link href="style.css" rel="stylesheet" >
+      <style>
+          .dropdown-submenu {
+              position: relative;
+          }
+          .dropdown-submenu > .dropdown-menu {
+              top: 0;
+              left: 100%;
+              margin-top: -6px;
+              margin-left: -1px;
+          }
+          .dropdown-submenu:hover > .dropdown-menu {
+              display: block;
+          }
+          .dropdown-submenu:active > .dropdown-menu {
+              display: block;
+          }
+          .dropdown-submenu:hover > a:after {
+              border-left-color: #fff;
+          }
+          .dropdown-submenu:active  > a:after {
+              border-left-color: #fff;
+          }
+          .dropdown-submenu.pull-left {
+              float: none;
+          }
+          .dropdown-submenu.pull-left > .dropdown-menu {
+              left: -100%;
+              margin-left: 10px;
+          }
+      </style>
+  </head>
+  <body id="body">
+
+
+
+<div id="bg" class="bg">
+
+  <div class=" " style="height: 100vh">
+    <nav class="navbar navbar-expand-lg rounded navbar-light pt-5 " aria-label="Thirteenth navbar example">
+      <div class="container-fluid">
+          <div class=" m-auto" type="button"  >
+              <div class="row" >
+                  <div class="col-3 navbar-toggler">
+                      <a class="navbar-brand" href="#">
+                          <img src="images/bg-logo.png" alt="Bootstrap" width="100%" height="100%" >
+                      </a>
+                  </div>
+                  <div class="dropdown-center col-7 navbar-toggler" style="margin: auto 0;text-align: center;">
+                      <button class="btn btn-secondary dropdown-toggle bg-transparent" type="button" data-bs-toggle="dropdown" aria-expanded="false " data-bs-auto-close="outside" style="border-radius: 8px;border-color: #D9D9D9;border-width:2px;padding: 0px 18px;">
+                          Home
+                      </button>
+                      <ul class="dropdown-menu bg-transparent" style="width: 100%;text-align: center;" aria-labelledby="navbarDropdownMenuLink"  >
+                          <li><a class="dropdown-item text-white " href="about_us.html">about us</a></li>
+                          <li class="dropdown-submenu">
+                              <a class="dropdown-item text-white" href="#" tabindex="-1">space programs</a>
+                              <ul class="dropdown-menu dropdown-menu-start bg-transparent" style="left: 70%;">
+                                  <li><a class="dropdown-item text-white" href="#">missions</a></li>
+                                  <li><a class="dropdown-item text-white" href="education.html">education</a></li>
+                                  <li><a class="dropdown-item text-white" href="#">projects</a></li>
+                              </ul>
+                          </li>
+                          <li><a class="dropdown-item text-white" href="event.html">events</a></li>
+                          <li><a class="dropdown-item text-white" href="#">contact us</a></li>
+                      </ul>
+                  </div>
+              </div>
+
+          </div>
+
+
+
+        <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+<!--          <a class="navbar-brand col-lg-3 me-0" href="#">Centered nav</a>-->
+          <div class="container col-lg-2" style="margin: 0px 5.8vw ">
+            <a class="navbar-brand" href="#">
+              <img src="images/bg-logo.png" alt="Bootstrap" width="174" >
+            </a>
+          </div>
+          <ul class="navbar-nav col-lg-10 justify-content-lg-start">
+            <li class="nav-item mx-4">
+              <a class="nav-link active text-white"" aria-current="page" href="index.html">Home</a>
+            </li>
+              <li class="nav-item mx-4">
+                  <a class="nav-link text-white" href="about_us.html">about us</a>
+              </li>
+              <li class="nav-item dropdown bg-transparent">
+                  <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false">space programs</a>
+                  <ul class="dropdown-menu bg-transparent text-center">
+                      <li><a class="dropdown-item text-white" href="#">missions</a></li>
+                      <li><a class="dropdown-item text-white" href="education.html">education</a></li>
+                      <li><a class="dropdown-item text-white" href="#">projects</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item mx-4">
+                  <a class="nav-link text-white" href="event.html">events</a>
+              </li>
+              <li class="nav-item mx-4">
+                  <a class="nav-link text-white" href="#">contact us</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <style>
+
+          .bg{
+              background: url("images/bg_about.jpg")  no-repeat   center center fixed;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+          }
+      </style>
+    <div id="main-content" class="">
+
+        <div class="container ">
+            <div class="content col-xl-9 mx-lg-5 mx-lg-5 " >
+                <div class="item" id="about" >
+                    <h3 class="base-color mb-5 head" style="margin: 5vh 0">ABOUT US</h3>
+                    <p class="p1 col-xl-6">
+                        SpaceCavez is a leading space
+                            startup providing advancing Space
+                            education and space R&D through
+                            and for analog space missions.
+                    </p>
+                    <p class="p2">
+                        We offer a wide range of <span class="base-color">educational opportunities</span> including
+                            webinars, workshops, courses, and internships that allow our
+                            interns to work on real space projects while learning.
+                    </p>
+                    <h3 class="base-color head" style="margin: 5vh 0">Our Goal</h3>
+                    <p class="p3">
+                        is to launch a research platform for crewed space exploration in the middle east to support educational and technological development by providing infrastructure for complex research on the impact of short and long-term Lunar and Matrian space missions.
+                    </p>
+                    <p class="base-color">
+                        Join us now as we embark on an exciting journey towards
+                            a brighter future for all.
+                    </p>
+                </div>
+            </div>
+        </div>
+          <section id="footer">
+              <div class="container ">
+                  <div class="m-auto text-center border-bottom border-white  py-2">
+                      <p id="get-in-touch" class="text-uppercase text-capitalize m-auto col-12 py-2 py-xl-4" style="font-size: 14px">get in touch</p>
+                      <div class=" m-auto col-12 text-center">
+                          <a href="https://www.facebook.com/people/SpaceCavez/100090626162515/" ><img src="images/fb.svg" class="mx-lg-3 mx-2 social-icon" ></a>
+                          <a href="https://instagram.com/sdlhsm" ><img src="images/insta.svg" class="mx-lg-3 mx-2 social-icon" ></a>
+                          <a href="https://www.linkedin.com/company/spacecavez/" ><img src="images/in.svg"  class="mx-lg-3  mx-2 social-icon" ></a>
+                      </div>
+                  </div>
+                  <p id="copy-right">
+                      Copyrighted © 2023 upload by SpaceCaves
+                  </p>
+              </div>
+          </section>
+
+    </div>
+  </div>
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+      <script>
+          var elements = document.querySelectorAll(".dropdown-item");
+
+          //event
+          for (var i = 0; i < elements.length; i++) {
+              elements[i].addEventListener("click", function() {
+                  // remove
+                  for (var i = 0; i < elements.length; i++) {
+                      elements[i].classList.remove("active");
+                  }
+                  this.classList.add("active");
+              });
+          }
+
+
+      </script>
+  </body>
+</html>
