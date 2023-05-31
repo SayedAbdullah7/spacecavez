@@ -1,7 +1,7 @@
 @php
     $currentRouteName = Route::currentRouteName();
 @endphp
-<section id="header" style="z-index: 10">
+<section id="header" style="z-index: 10000">
     <nav class="navbar navbar-expand-lg rounded navbar-light pt-3" aria-label="Thirteenth navbar example">
         <div class="container-fluid">
             <div class=" m-auto" type="button"  >
