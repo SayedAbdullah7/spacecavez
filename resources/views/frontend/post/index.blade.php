@@ -60,7 +60,9 @@
                         <div class="card-body d-flex flex-column" >
                             <h5 class="card-title fs-1 montserrat-font">{{$post->title}}</h5>
                             <p class="card-text montserrat-font" style="flex:1;font-size: unset!important;">
-                                {{\Illuminate\Support\Str::limit(strip_tags($post->content),265)}}
+{{--                                {{\Illuminate\Support\Str::limit(strip_tags($post->content),265)}}--}}
+                                {{ Illuminate\Support\Str::limit(str_replace('&nbsp;', '', strip_tags($post->content)), 265) }}
+
                             </p>
                             <div class="m-auto w-100 text-center">
                                 <a  href="{{route('post.show',$post->id)}}" class="btn btn-outline-info m-auto btn-card px-4 py-1">Learn me more</a>
