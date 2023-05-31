@@ -34,7 +34,7 @@
             </p>
             <h3 class="base-color head" style="margin: 5vh 0">Our Goal</h3>
             <p class="p3">
-                is to launch a research platform for crewed space exploration in the middle east to support educational and technological development by providing infrastructure for complex research on the impact of short and long-term Lunar and Matrian space missions.
+                is to launch a research platform for crewed space exploration in the middle east to support educational and technological development by providing infrastructure for complex research on the impact of short and long-term Lunar and Martian space missions.
             </p>
             <p class="base-color">
                 Join us now as we embark on an exciting journey towards

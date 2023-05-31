@@ -15,7 +15,7 @@
                     <div class="position-absolute group-one"  style="width: 70%;margin: 0px 15%;" >
                         <img id="banner" class="m-auto d-block" style="opacity: 0.2;max-width: 100%;max-height: 50vh;" src="{{asset('images/bg-logo.png')}}">
                         <p style="font-family: 'Montserrat';color: #FFFFFF;opacity: 0.6;max-width: 900px;" class="paragraph first-paragraph text-center m-auto mt-4 fw-semibold">
-                            Pushing the boundaries of what is possible with space education and space R&D to create more sustainable future.
+                            Pushing the boundaries of what is possible with space education and space R&D to create a more sustainable future.
                         </p>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                       <img id="space-ship" class="position-absolute" style="" src="images/q2.png">
                         <div class="row mt-xs-5 " style="margin-top: 55Vh;">
                             <!--                            <div class="">-->
-                            <p style="font-family: 'Montserrat';color: #FFFFFF;opacity: 0.6;max-width: 900px;margin-left: 13vw" class="col-lg-4 paragraph text-center   col-md-6 fw-bold">
+                            <p style="font-family: 'Montserrat';color: #FFFFFF;opacity: 0.6;max-width: 900px;margin-left: 13vw" class="col-lg-4 paragraph text-center   col-md-6 fw-semibold">
                                 a research platform to support scientific and technological development in crewed space exploration
                             </p>
                             <!--                            </div>-->
@@ -38,7 +38,7 @@
                 <!--                </div>-->
                 <div class="s-item position-relative ">
                     <div class="position-absolute center-absolute container" style="" >
-                        <p style="font-family: 'Montserrat';color: #FFFFFF;opacity: 0.6;max-width: 900px;right: 15%;position: absolute;top: 80%;" class="col-lg-4 paragraph text-center   col-lg-4">
+                        <p style="font-family: 'Montserrat';color: #FFFFFF;opacity: 0.6;max-width: 900px;right: 15%;position: absolute;top: 80%;" class="col-lg-4 paragraph text-center   col-lg-4 fw-semibold">
                             Sustainability Studies
                         </p>
                         <div class="row container group"  style="margin-top: 50Vh;">

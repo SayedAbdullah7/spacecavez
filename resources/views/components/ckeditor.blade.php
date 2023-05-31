@@ -37,6 +37,8 @@
                         });
                     }).catch(error => {
                         console.error(error.response.data); // Print the error content
+                        console.error(error.response); // Print the error content
+                        console.error(error.responseText); // Print the error content
                         reject(error);
                     });
                 }));
